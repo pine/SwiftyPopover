@@ -1,0 +1,20 @@
+PODS:
+  - Nimble (1.0.0)
+  - Quick (0.3.1)
+  - SwiftyPopover (0.1.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick (~> 0.3.1)
+  - SwiftyPopover (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+  SwiftyPopover: ce9f526e3a6d67cd91d00b5eb689b6ca0ec5c8a7
+
+COCOAPODS: 0.38.2

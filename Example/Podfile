@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SwiftyPopover_Example', :exclusive => true do
+  pod "SwiftyPopover", :path => "../"
+end
+
+target 'SwiftyPopover_Tests', :exclusive => true do
+  pod "SwiftyPopover", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end
